@@ -2,7 +2,6 @@
 /dist
 /build
 /node_modules
-/build
 
 # Logs
 logs
@@ -36,30 +35,13 @@ lerna-debug.log*
 !.vscode/launch.json
 !.vscode/extensions.json
 
-# dotenv environment variable files
-.env
-.env.development.local
-.env.test.local
-.env.production.local
-.env.local
-tsconfig.tsbuildinfo
-.env.test
-.env.development
-
-# temp directory
-.temp
-.tmp
-
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# Diagnostic reports (https://nodejs.org/api/report.html)
-report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 # Docker
 .docker/*
 !.docker/entrypoint.sh
 !.docker/postgres/Dockerfile
+
+.env
+.env.development
+.env.test
+tsconfig.tsbuildinfo
